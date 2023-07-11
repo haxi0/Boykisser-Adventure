@@ -3989,7 +3989,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Cnds.IsMoving,
 		C3.Behaviors.Platform.Cnds.IsOnFloor,
 		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Behaviors.Platform.Cnds.IsJumping
+		C3.Behaviors.Platform.Cnds.IsJumping,
+		C3.Behaviors.Platform.Acts.SimulateControl,
+		C3.Behaviors.Platform.Acts.SetJumpStrength
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4004,7 +4006,11 @@ self.C3_JsPropNameTable = [
 	{Клавиатура: 0},
 	{Sprite: 0},
 	{Спрайт6: 0},
-	{БезИмени: 0}
+	{Спрайт7: 0},
+	{Спрайт8: 0},
+	{bg: 0},
+	{Спрайт9: 0},
+	{Спрайт10: 0}
 ];
 }
 
@@ -4107,7 +4113,9 @@ function or(l, r)
 self.C3_ExpressionFuncs = [
 		() => "run",
 		() => "idle",
-		() => "jump"
+		() => "jump",
+		() => 2000,
+		() => 1000
 ];
 
 
