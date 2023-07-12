@@ -4005,7 +4005,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Cnds.IsOnFloor,
 		C3.Plugins.Sprite.Acts.SetAnim,
 		C3.Behaviors.Platform.Cnds.IsJumping,
-		C3.Plugins.System.Acts.RestartLayout,
 		C3.Behaviors.Platform.Acts.SimulateControl,
 		C3.Behaviors.Platform.Acts.SetJumpStrength,
 		C3.Plugins.Button.Cnds.OnClicked,
