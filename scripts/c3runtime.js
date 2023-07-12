@@ -4009,7 +4009,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Acts.SetJumpStrength,
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.Button.Cnds.IsVisible,
-		C3.Plugins.Button.Acts.SetCSSStyle
+		C3.Plugins.Button.Acts.SetCSSStyle,
+		C3.Plugins.Sprite.Cnds.IsVisible,
+		C3.Plugins.System.Acts.Wait
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4027,11 +4029,12 @@ self.C3_JsPropNameTable = [
 	{Спрайт8: 0},
 	{bg: 0},
 	{Спрайт9: 0},
-	{Спрайт10: 0},
 	{Кнопка: 0},
 	{Спрайт11: 0},
 	{Спрайт12: 0},
-	{Спрайт13: 0}
+	{Спрайт13: 0},
+	{loading: 0},
+	{Спрайт14: 0}
 ];
 }
 
@@ -4146,9 +4149,10 @@ self.C3_ExpressionFuncs = [
 		() => "color",
 		() => "white",
 		() => "font-size",
-		() => "50px",
+		() => "90px",
 		() => "font-weight",
-		() => "bold"
+		() => "bold",
+		() => 2
 ];
 
 
