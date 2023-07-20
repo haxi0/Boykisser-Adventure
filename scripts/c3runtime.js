@@ -4185,6 +4185,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Touch.Cnds.IsInTouch,
 		C3.Plugins.Sprite.Acts.SetVisible,
+		C3.Plugins.Sprite.Acts.MoveToLayer,
 		C3.Plugins.Keyboard.Cnds.OnAnyKey
 	];
 };
@@ -4214,7 +4215,6 @@ self.C3_JsPropNameTable = [
 	{placeholder: 0},
 	{Touch: 0},
 	{Sprite: 0},
-	{Спрайт6: 0},
 	{Sprite2: 0},
 	{Спрайт10: 0},
 	{hp: 0},
